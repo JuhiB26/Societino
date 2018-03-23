@@ -1,0 +1,239 @@
+<resources>
+    <string name="app_name">Societino</string>
+
+
+    <string-array name="statenames">
+        <item>Select State</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu-Kashmir</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Orissa</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Chhattisgarh</item>
+        <item>Uttarakhand</item>
+        <item>Jharkhand</item>
+        <item> Telangana</item>
+
+
+    </string-array>
+    <string-array name="Profession">
+        <item>Select your Profession</item>
+        <item>Accountant (general)</item>
+        <item>Accounts clerk</item>
+        <item>Actor</item>
+        <item>Air force general</item>
+        <item>Air-conditioning and refrigeration mechanic</item>
+        <item>Alarm, security or surveillance monitor</item>
+        <item>Archaeologist</item>
+        <item>Architect</item>
+        <item>Army officer</item>
+        <item>Army Soldier</item>
+        <item>Art director (film, television, stage)</item>
+        <item> Art teacher</item>
+        <item>Author</item>
+        <item>Baker</item>
+        <item>Bank worker</item>
+        <item>Beauty consultant</item>
+        <item>Biotechnologist</item>
+        <item>Builder</item>
+        <item>Businessman</item>
+        <item>Bus driver</item>
+        <item>Cafe or restaurant manager</item>
+        <item>Call or contact centre team leader</item>
+        <item>Camera operator (film, television or video)</item>
+        <item>Careers counsellor</item>
+        <item>Carpenter</item>
+        <item>Chartered Accountant</item>
+        <item>Chef</item>
+        <item>Chemist</item>
+        <item>Cinema or theatre manager</item>
+        <item>Cook</item>
+        <item>Corporate general manager</item>
+        <item>Counsellor</item>
+        <item>Customer service manager</item>
+        <item>Customs officer</item>
+        <item>Dancer or choreographer</item>
+        <item> Dentist</item>
+        <item>Dermatologist</item>
+        <item>Developer programmer</item>
+        <item>Dietitian</item>
+        <item>Director (film, television, radio or stage)</item>
+        <item>Doctor</item>
+        <item> Domestic cleaner</item>
+        <item>Economist</item>
+        <item>Engineer</item>
+        <item>Entertainer or variety artist</item>
+        <item>Entrepreneur</item>
+        <item> Facilities manager</item>
+        <item>Fashion designer</item>
+        <item>Film and video producer</item>
+        <item> Finance broker</item>
+        <item> Fire fighter</item>
+        <item>Fitness instructor</item>
+        <item>Flight attendant</item>
+        <item>Florist</item>
+        <item>Game developer</item>
+        <item>Gardener (general)</item>
+        <item>General clerk</item>
+        <item> Geologist</item>
+        <item>Goldsmith</item>
+        <item>Graphic designer</item>
+        <item>Hairdresser</item>
+        <item>Handyperson</item>
+        <item>Historian</item>
+        <item>Hotel or motel manager</item>
+        <item>Housewife</item>
+        <item>Immigration officer (Border Force officer)</item>
+        <item>Insurance agent</item>
+        <item>Intelligence officer</item>
+        <item>Interior designer</item>
+        <item>Jewellery designer</item>
+        <item>Journalist</item>
+        <item>Judge</item>
+        <item>Laundry worker (general)</item>
+        <item>Lawyer</item>
+        <item>Librarian</item>
+        <item>Lifeguard</item>
+        <item> Make up artist</item>
+        <item>Marine biologist</item>
+        <item>Mathematician</item>
+        <item> Mechanic</item>
+        <item>Member of parliament</item>
+        <item>Meteorologist</item>
+        <item>Microbiologist</item>
+        <item>Model</item>
+        <item>Musician</item>
+        <item>Nanny</item>
+        <item>Nurse</item>
+        <item>Nutritionist</item>
+        <item>Office manager</item>
+        <item>Painter</item>
+        <item>Pharmacist</item>
+        <item>Photographer</item>
+        <item>Pilot</item>
+        <item>Plumber (general)</item>
+        <item>Police officer</item>
+        <item>Politician</item>
+        <item>Principal</item>
+        <item>Public relations professional</item>
+        <item>Publisher</item>
+        <item>Radio presenter</item>
+        <item>Railway track worker</item>
+        <item>Real estate agent</item>
+        <item>Receptionist (general)</item>
+        <item>Scientist</item>
+        <item>Social worker</item>
+        <item>Sportsperson</item>
+        <item>Student</item>
+        <item>Teacher</item>
+        <item>Travel consultant</item>
+        <item>Web designer</item>
+        <item>Weight loss consultant</item>
+        <item>Zoologist</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_nav_drawer">Societino</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Societino</string>
+    <string name="nav_header_subtitle">Welcome to Societino</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_nav_drawer_user">Societino</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+
+</resources>

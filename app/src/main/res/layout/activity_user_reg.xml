@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    android:layout_margin="10dp"
+    tools:context=".UserReg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/userdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="5dp"
+                android:text="User Registration"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edittext_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Full Name"
+                        android:maxLines="1"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/edittext_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:maxLines="3"
+                            android:lines="3"
+                            android:hint="Address"
+
+                            android:inputType="textMultiLine"/>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/buttonaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FFFFFF"
+                    android:text="Upload Address proof"
+
+                    android:layout_marginBottom="15dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/edittext_socuc"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Society Unique Code"
+                                android:layout_weight="3"
+
+                                />
+                            <Button
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Verify"
+                                android:background="@drawable/buttonshape"
+                                android:textColor="#FFFFFF"
+                                android:layout_weight="1"
+                                android:id="@+id/buttonverify1"
+                                android:layout_marginBottom="15dp"/>
+                        </LinearLayout>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="4">
+                            <android.support.design.widget.TextInputEditText
+                                android:id="@+id/edittext_contact"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Contact"
+                                android:layout_weight="3"
+                                android:inputType="number"
+                                />
+                            <Button
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:text="Verify"
+                                android:layout_weight="1"
+                                android:background="@drawable/buttonshape"
+                                android:textColor="#FFFFFF"
+                                android:id="@+id/buttonverify"/>
+                        </LinearLayout>
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <Spinner
+                android:id="@+id/spinprofession"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/Profession"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+            </Spinner>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/edittext_nofm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="Number of family members."
+                        android:inputType="number"
+                        android:layout_marginBottom="17dp"/>
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+            <TextView
+
+                android:layout_height="match_parent"
+                android:text="Vehicle information:"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:layout_width="wrap_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:weightSum="5"
+                android:layout_margin="5dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6"
+                    android:text="Number of 2-wheeler vehicle:"
+                    android:textSize="18sp"/>
+
+                <Button
+                    android:id="@+id/decrease"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="decreaseInteger"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="20dp"
+                    android:text="-"
+                    />
+
+                <TextView
+                    android:id="@+id/integer_number"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="0"
+                    android:layout_weight="0.8"
+
+                    android:textSize="20sp"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/increase"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseInteger"
+                    android:text="+"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="5"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.6"
+                    android:text="Number of 4-wheeler vehicle:"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="17dp"/>
+
+                <Button
+                    android:id="@+id/decrease1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="decreaseIntegerr"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="20dp"
+                    android:text="-"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FFFFFF"
+
+                    android:layout_marginBottom="17dp"
+                    />
+
+                <TextView
+                    android:id="@+id/integer_number1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="0"
+                    android:layout_weight="0.8"
+
+                    android:textSize="20sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="17dp"/>
+
+                <Button
+                    android:id="@+id/increase1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="increaseIntegerr"
+                    android:text="+"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FFFFFF"
+                    android:layout_weight="0.5"
+                    android:layout_marginBottom="17dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/radioLayout"
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/genderRadio"
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp">
+
+                <RadioButton
+                    android:text="Owner"
+                    android:layout_weight="1"
+                    android:id="@+id/rb_owner"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_marginBottom="7dp"/>
+                <RadioButton
+                    android:text="Tenant"
+                    android:layout_weight="1"
+                    android:id="@+id/rb_tenant"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_marginBottom="7dp"/>
+                <RadioButton
+                    android:text="Admin"
+                    android:layout_weight="1"
+                    android:id="@+id/rb_admin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_marginBottom="7dp"/>
+
+            </RadioGroup>
+            </LinearLayout>
+            <Button
+                android:id="@+id/buttonreg"
+                android:layout_width="170dp"
+                android:background="@drawable/buttonshape"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:layout_gravity="center"/>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

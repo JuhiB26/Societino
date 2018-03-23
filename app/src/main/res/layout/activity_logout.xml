@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:layout_margin="10dp"
+android:orientation="vertical"
+    android:background="@drawable/img"
+tools:context=".Logout">
+
+<ProgressBar
+    android:id="@+id/progressBar"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    />
+<Button
+    android:id="@+id/btnLogout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:background="@drawable/buttonshape"
+    android:textColor="#FFFFFF"
+    android:text="Log Out" />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:text="Not Yet Approved!"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+    android:textSize="20dp" />
+
+
+</LinearLayout>

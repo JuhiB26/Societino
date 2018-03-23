@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="App" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#005792</item>
+        <item name="colorPrimaryDark">#00204A</item>
+        <item name="colorAccent">#00BBF0</item>
+    </style>
+
+
+    <style name="spinnerStyle" parent="@android:style/Widget.TextView.SpinnerItem">
+        <item name="android:padding">5sp</item>
+    </style>
+
+
+    <style name="MyButton1" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#00995c</item>
+        <item name="colorButtonNormal">#00ff80</item>
+    </style>
+
+
+    <style name="MyButton2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#b30000</item>
+        <item name="colorButtonNormal">#ff4d4d</item>
+    </style>
+
+
+    <style name="MyButton3" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#404040</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

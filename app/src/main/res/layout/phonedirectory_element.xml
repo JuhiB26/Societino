@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+    card_view:cardBackgroundColor="@android:color/transparent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mainCard"
+    android:layout_margin="10dp"
+        android:layout_marginBottom="5dp"
+        card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:weightSum="2"
+        android:padding="20dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:hint="Name"
+        android:id="@+id/phoneName"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="75dp"
+        android:hint="Number"
+        android:id="@+id/phoneNumber"/>
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+

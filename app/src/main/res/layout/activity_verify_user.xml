@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent"
+    tools:context=".VerifyUser">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Verify Members"
+        android:textSize="20dp"
+        android:id="@+id/month"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rView"
+
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"/>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvMsg"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="No Pending Requests!"
+        />
+
+</LinearLayout>

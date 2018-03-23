@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="societino.com.societinof">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="ANDROID.PERMISSION.READ_EXTERNAL_STORAGE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SocietyReg"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".ChairmanReg"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".verifyphn"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".UserReg"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".Logout"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".UserHome"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".VerifyUser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".viewIn"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EmergencyHome" />
+        <activity android:name=".GalleryHome" />
+        <activity android:name=".InsideAlbum" />
+        <activity android:name=".NoticePDF" />
+        <activity android:name=".NoticeText" />
+        <activity android:name=".NoticeView" />
+        <activity android:name=".NoticeImage" />
+        <activity android:name=".ComplainHome" />
+        <activity android:name=".PhoneDirectory" />
+        <activity android:name=".PhoneDirectoryDisplay" />
+        <activity android:name=".NewsHome" />
+
+        <activity android:name=".ScheduleInfo" />
+        <activity android:name=".ChatHome" />
+        <activity android:name=".PollsHome" />
+        <activity android:name=".PollsCreate" />
+        <activity android:name=".PollVote" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".InfoActivity" />
+        <activity
+            android:name=".NavDrawerUser"
+            android:label="@string/title_activity_nav_drawer_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".AboutUs"></activity>
+    </application>
+
+</manifest>

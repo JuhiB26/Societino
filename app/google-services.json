@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "769706584370",
+    "firebase_url": "https://societinof.firebaseio.com",
+    "project_id": "societinof",
+    "storage_bucket": "societinof.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769706584370:android:bc11c60b6979df0c",
+        "android_client_info": {
+          "package_name": "societino.com.societinof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769706584370-l1s4o63717usf9dfbkvga657d7f39g82.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-q2n1-mbKyujlqkrDCLQjGoZUy2Pr_Tc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
